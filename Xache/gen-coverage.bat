@@ -1,0 +1,2 @@
+dotnet test Xache.Tests\ /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
+packages\ReportGenerator.3.1.2\tools\ReportGenerator.exe -reports:Xache.Tests\coverage.opencover.xml -targetdir:Xache.Reports\
